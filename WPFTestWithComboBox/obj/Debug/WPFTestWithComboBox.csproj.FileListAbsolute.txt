@@ -1,0 +1,16 @@
+C:\Users\jklpp\Desktop\Vanier Studies\10 Application Development 1(desktop)\Labs and Assignments\Lab2&Lab3\WPFTestWithComboBox\bin\Debug\WPFTestWithComboBox.exe.config
+C:\Users\jklpp\Desktop\Vanier Studies\10 Application Development 1(desktop)\Labs and Assignments\Lab2&Lab3\WPFTestWithComboBox\bin\Debug\WPFTestWithComboBox.exe
+C:\Users\jklpp\Desktop\Vanier Studies\10 Application Development 1(desktop)\Labs and Assignments\Lab2&Lab3\WPFTestWithComboBox\bin\Debug\WPFTestWithComboBox.pdb
+C:\Users\jklpp\Desktop\Vanier Studies\10 Application Development 1(desktop)\Labs and Assignments\Lab2&Lab3\WPFTestWithComboBox\obj\Debug\WPFTestWithComboBox.csproj.AssemblyReference.cache
+C:\Users\jklpp\Desktop\Vanier Studies\10 Application Development 1(desktop)\Labs and Assignments\Lab2&Lab3\WPFTestWithComboBox\obj\Debug\WPFTestWithComboBox.csproj.SuggestedBindingRedirects.cache
+C:\Users\jklpp\Desktop\Vanier Studies\10 Application Development 1(desktop)\Labs and Assignments\Lab2&Lab3\WPFTestWithComboBox\obj\Debug\MainWindow.g.cs
+C:\Users\jklpp\Desktop\Vanier Studies\10 Application Development 1(desktop)\Labs and Assignments\Lab2&Lab3\WPFTestWithComboBox\obj\Debug\App.g.cs
+C:\Users\jklpp\Desktop\Vanier Studies\10 Application Development 1(desktop)\Labs and Assignments\Lab2&Lab3\WPFTestWithComboBox\obj\Debug\WPFTestWithComboBox_MarkupCompile.cache
+C:\Users\jklpp\Desktop\Vanier Studies\10 Application Development 1(desktop)\Labs and Assignments\Lab2&Lab3\WPFTestWithComboBox\obj\Debug\WPFTestWithComboBox_MarkupCompile.lref
+C:\Users\jklpp\Desktop\Vanier Studies\10 Application Development 1(desktop)\Labs and Assignments\Lab2&Lab3\WPFTestWithComboBox\obj\Debug\MainWindow.baml
+C:\Users\jklpp\Desktop\Vanier Studies\10 Application Development 1(desktop)\Labs and Assignments\Lab2&Lab3\WPFTestWithComboBox\obj\Debug\WPFTestWithComboBox.g.resources
+C:\Users\jklpp\Desktop\Vanier Studies\10 Application Development 1(desktop)\Labs and Assignments\Lab2&Lab3\WPFTestWithComboBox\obj\Debug\WPFTestWithComboBox.Properties.Resources.resources
+C:\Users\jklpp\Desktop\Vanier Studies\10 Application Development 1(desktop)\Labs and Assignments\Lab2&Lab3\WPFTestWithComboBox\obj\Debug\WPFTestWithComboBox.csproj.GenerateResource.cache
+C:\Users\jklpp\Desktop\Vanier Studies\10 Application Development 1(desktop)\Labs and Assignments\Lab2&Lab3\WPFTestWithComboBox\obj\Debug\WPFTestWithComboBox.csproj.CoreCompileInputs.cache
+C:\Users\jklpp\Desktop\Vanier Studies\10 Application Development 1(desktop)\Labs and Assignments\Lab2&Lab3\WPFTestWithComboBox\obj\Debug\WPFTestWithComboBox.exe
+C:\Users\jklpp\Desktop\Vanier Studies\10 Application Development 1(desktop)\Labs and Assignments\Lab2&Lab3\WPFTestWithComboBox\obj\Debug\WPFTestWithComboBox.pdb

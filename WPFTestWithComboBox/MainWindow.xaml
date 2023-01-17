@@ -1,0 +1,54 @@
+﻿<Window x:Class="WPFTestWithComboBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTestWithComboBox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="score_1" Content="Score 1" HorizontalAlignment="Left" Margin="10,94,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="score1" HorizontalAlignment="Left" Margin="67,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="score_2" Content="Score 2" HorizontalAlignment="Left" Margin="10,135,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="score2" HorizontalAlignment="Left" Margin="67,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="score_3" Content="Score 3" HorizontalAlignment="Left" Margin="10,179,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="score3" HorizontalAlignment="Left" Margin="67,183,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="average" Content="Average" HorizontalAlignment="Left" Margin="2,269,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="averageScore" HorizontalAlignment="Left" Margin="67,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="grade" Content="Grade" HorizontalAlignment="Left" Margin="10,313,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="gradeScore" HorizontalAlignment="Left" Margin="67,317,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="opening_balance" Content="Opening Balance" HorizontalAlignment="Left" Margin="186,94,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="openingBalance" HorizontalAlignment="Left" Margin="291,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+        <Label x:Name="checks_used" Content="Checks Used" HorizontalAlignment="Left" Margin="187,136,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="checksUsed" HorizontalAlignment="Left" Margin="309,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="67"/>
+        <Label x:Name="service_fee" Content="Service Fee" HorizontalAlignment="Left" Margin="199,224,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="serviceFeeForMonth" HorizontalAlignment="Left" Margin="293,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83"/>
+        <Label x:Name="total_checks_used" Content="Total Checks Used" HorizontalAlignment="Left" Margin="185,269,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="totalChecksUsed" HorizontalAlignment="Left" Margin="322,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="54"/>
+        <Label x:Name="ending_balance" Content="Ending Balance" HorizontalAlignment="Left" Margin="187,313,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="endingBalance" HorizontalAlignment="Left" Margin="299,317,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77"/>
+        <Label x:Name="weight" Content="Weight" HorizontalAlignment="Left" Margin="384,95,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="kg" HorizontalAlignment="Left" Margin="494,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="67"/>
+        <Label x:Name="distanceShipped" Content="Miles Shipped" HorizontalAlignment="Left" Margin="384,136,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="miles" HorizontalAlignment="Left" Margin="494,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="67"/>
+        <Label x:Name="shipping_fee" Content="Shipping Fee" HorizontalAlignment="Left" Margin="384,225,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="shippingFee" HorizontalAlignment="Left" Margin="491,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
+        <Label x:Name="speedPerHour" Content="Speed" HorizontalAlignment="Left" Margin="583,95,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="speed" HorizontalAlignment="Left" Margin="640,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="hr1" Content="1" HorizontalAlignment="Left" Margin="583,224,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="hour1" HorizontalAlignment="Left" Margin="640,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="hr2" Content="2" HorizontalAlignment="Left" Margin="583,269,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="hour2" HorizontalAlignment="Left" Margin="640,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="hr3" Content="3" HorizontalAlignment="Left" Margin="583,313,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="hour3" HorizontalAlignment="Left" Margin="640,317,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="hr" Content="Hour" HorizontalAlignment="Left" Margin="570,182,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="distanceTraveled1" Content="Distance Traveled" HorizontalAlignment="Left" Margin="640,182,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="operation" HorizontalAlignment="Left" Margin="324,10,0,0" VerticalAlignment="Top" Width="120" ItemsSource="{Binding operate}" SelectedIndex="0"/>
+        <Label x:Name="test_score" Content="Test Scores" HorizontalAlignment="Left" Margin="95,48,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="bank_charge" Content="Bank Charges" HorizontalAlignment="Left" Margin="266,48,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="shipping_charge" Content="Shipping Charge" HorizontalAlignment="Left" Margin="420,48,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="speed1" Content="Speed" HorizontalAlignment="Left" Margin="659,48,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="operations" Content="Operations" HorizontalAlignment="Left" Margin="222,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="process" Content="Process" HorizontalAlignment="Left" Margin="502,13,0,0" VerticalAlignment="Top" Click="process_Click"/>
+    </Grid>
+</Window>
